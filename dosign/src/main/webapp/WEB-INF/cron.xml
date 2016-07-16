@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/doSign</url>
+    <description>daily summary job</description>
+    <schedule>every day 01:00</schedule>
+  </cron>
+</cronentries>

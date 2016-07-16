@@ -14,7 +14,7 @@ public class DoSignServlet extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
-    private static final String defaultURL = "http://xmpingan.s.baimao.com/operate_membercard/dosignin.htm?aid=10031&wechatid=oQYAHt4bNRfHQMhWZDGd8mhdcsFY";
+    private static final String defaultURL = "";
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/plain");

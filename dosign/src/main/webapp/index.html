@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>App Engine Demo</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 </head>
 <body>
 <div id="result">Loading...</div>
@@ -10,7 +10,7 @@
 <script>
     $(document).ready(function() {
         $.getJSON('/doSign', function(data) {
-            $('#result').html("Hello, " + data);
+            $('#result').html("Hello, " + data.msg);
         });
     });
 </script>
